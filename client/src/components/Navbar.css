@@ -1,0 +1,52 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+    z-index: 1000;
+    /* Ensure the navbar stays on top of other content */
+}
+
+nav h1 {
+    font-size: 2.5rem;
+    flex-grow: 1;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+    /* Spread list items equally */
+    align-items: center;
+    margin: 0;
+    padding: 0 2rem 0 0;
+    /* Add padding to the right side */
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+body {
+    padding-top: 4rem;
+    /* Adjust this value if needed to create space below the navbar */
+}

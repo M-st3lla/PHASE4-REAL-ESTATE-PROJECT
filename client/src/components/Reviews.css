@@ -1,0 +1,64 @@
+/* src/components/Reviews.css */
+
+.reviews-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.reviews-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 700px;
+    color: white;
+    font-size: 35px;
+    background-color: rgb(134, 96, 12);
+}
+
+.reviews-container form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.reviews-container label {
+    margin-bottom: 10px;
+}
+
+.reviews-container select,
+.reviews-container textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reviews-container button {
+    padding: 10px;
+    background-color: #b68929;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews-container button:hover {
+    background-color: #af987a;
+}
+
+.reviews-list {
+    margin-top: 20px;
+}
+
+.reviews-list .review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.reviews-list .review h4 {
+    margin: 0 0 5px 0;
+}

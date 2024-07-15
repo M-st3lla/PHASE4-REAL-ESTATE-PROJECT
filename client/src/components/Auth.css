@@ -1,0 +1,87 @@
+.auth-container {
+    background-image: url('/public/real-background.webp');
+    /* Path to the image in the public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.auth-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    /* White background with some transparency */
+    padding: 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 300px;
+    text-align: center;
+}
+
+.auth-wrapper h2 {
+    margin-bottom: 1rem;
+}
+
+.auth-wrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.auth-wrapper form div {
+    margin-bottom: 1rem;
+}
+
+.auth-wrapper form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.auth-wrapper form input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-wrapper button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-wrapper button:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('/public/real-background.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    margin-top: 1rem;
+    color: green;
+    font-size: 1.2rem;
+}
